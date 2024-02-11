@@ -13,12 +13,12 @@ public class MinMaxWord {
                 minMaxWord = word;
             }
         }
-        System.out.println(minMaxWord);
+        System.out.println("Min last word: " + minMaxWord);
         for(String word : words){
             if (minMaxWord.length() <= word.length()){
                 minMaxWord = word;
             }
         }
-        System.out.println(minMaxWord);
+        System.out.println("Max last word: " + minMaxWord);
     }
 }
