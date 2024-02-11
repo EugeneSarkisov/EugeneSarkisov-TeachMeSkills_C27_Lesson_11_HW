@@ -2,6 +2,8 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+.idea/
+TeachMeSkills_C27_Lesson_11_HW.iml
 
 ### Eclipse ###
 .apt_generated
